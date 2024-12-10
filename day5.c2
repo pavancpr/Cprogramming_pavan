@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int age,clas;
+     char a[10];
+    printf("name :");
+    scanf("%s",&a);
+    printf("class :");
+    scanf("%d",&clas);
+    printf("age :");
+    scanf("%d",&age);
+    printf("\n name=%s",a); //name
+    printf("\n class=%d",clas); // class
+    printf("\n age=%d",age); //age
+    return 0;
+}
